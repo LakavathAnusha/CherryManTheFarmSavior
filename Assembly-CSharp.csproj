@@ -54,7 +54,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
-    <Compile Include="Assets\UIPart.cs" />
+    <Compile Include="Assets\UIScripts\UIPart.cs" />
+    <Compile Include="Assets\Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Assets\Scripts\Cherry.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameStateController.cs" />
+    <Compile Include="Assets\Assets\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Assets\Scripts\CherryManager.cs" />
+    <Compile Include="Assets\Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Assets\Scripts\ObjectPool.cs" />
+    <Compile Include="Assets\UIScripts\LevelLoader.cs" />
+    <Compile Include="Assets\UIScripts\GameOverScript.cs" />
+    <Compile Include="Assets\UIScripts\PauseScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
