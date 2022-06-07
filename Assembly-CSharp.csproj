@@ -67,6 +67,7 @@
     <Compile Include="Assets\UIScripts\LevelLoader.cs" />
     <Compile Include="Assets\UIScripts\GameOverScript.cs" />
     <Compile Include="Assets\UIScripts\PauseScript.cs" />
+    <Compile Include="Assets\Name.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
